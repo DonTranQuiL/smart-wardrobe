@@ -1,0 +1,40 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "data": {
+          "clothing_calendar": "Select your Schedule Calendar",
+          "notify_device": "Notification Device (Optional - defaults to sidebar)"
+        }
+      }
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Add New Clothing",
+        "data": {
+          "name": "Garment Name (e.g., Blue Suit)",
+          "category": "Clothing Category",
+          "max_wears": "Max wears before dirty"
+        }
+      }
+    }
+  },
+  "services": {
+    "set_garment_state": {
+      "name": "Set Garment State",
+      "description": "Manually update the state of a piece of clothing.",
+      "fields": {
+        "entity_id": {
+          "name": "Garment Entity",
+          "description": "The piece of clothing to update."
+        },
+        "state": {
+          "name": "New State",
+          "description": "Choose: Clean, Worn, Dirty, or Washing."
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,22 @@
+set_garment_state:
+  name: Set Garment State
+  description: Manually update the state of a piece of clothing.
+  fields:
+    entity_id:
+      name: Garment Entity
+      description: The clothing entity to update.
+      required: true
+      selector:
+        entity:
+          domain: sensor
+    state:
+      name: New State
+      description: "Choose: Clean, Worn, Dirty, or Washing."
+      required: true
+      selector:
+        select:
+          options:
+            - "Clean"
+            - "Worn"
+            - "Dirty"
+            - "Washing"
