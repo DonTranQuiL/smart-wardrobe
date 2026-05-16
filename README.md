@@ -3,10 +3,11 @@
 Created by **Don TranQUiL**
 
 [![hacs_badge](https://img.shields.io/badge/HACS-Custom-orange.svg)](https://hacs.xyz/)
-[![Version](https://img.shields.io/github/v/release/DonTranQuiL/smart-wardrobe?color=blue)](https://github.com/DonTranQuiL/smart-wardrobe/releases)
 [![Maintained](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/DonTranQuiL/smart-wardrobe/commits/main)
 [![Home Assistant](https://img.shields.io/badge/Home%20Assistant-2024.5+-blue.svg)](https://www.home-assistant.io/)
-
+[![Code Checker](https://github.com/DonTranQuiL/smart-wardrobe/actions/workflows/codechecker.yml/badge.svg)](https://github.com/DonTranQuiL/smart-wardrobe/actions)
+[![HACS Validation](https://github.com/DonTranQuiL/smart-wardrobe/actions/workflows/hacs.yaml/badge.svg)](https://github.com/DonTranQuiL/smart-wardrobe/actions)
+[![GitHub Release](https://img.shields.io/github/v/release/DonTranQuiL/smart-wardrobe?style=flat-square)](https://github.com/DonTranQuiL/smart-wardrobe/releases)
 ---
 
 ## 📖 The Philosophy
