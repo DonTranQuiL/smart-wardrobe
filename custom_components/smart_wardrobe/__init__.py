@@ -3,7 +3,7 @@ import logging
 import voluptuous as vol
 from datetime import datetime, timedelta
 from homeassistant.helpers import config_validation as cv
-from .const import DOMAIN, CONF_CALENDAR, CONF_NOTIFY_DEVICE, STATE_DIRTY
+from .const import DOMAIN, CONF_CALENDAR, CONF_NOTIFY_DEVICE
 
 _LOGGER = logging.getLogger(__name__)
 PLATFORMS = ["sensor"]
@@ -64,9 +64,12 @@ async def check_wardrobe_readiness(hass, entry):
         for event in events:
             summary = event.get("summary", "").lower()
             cat = None
-            if "wedding" in summary: cat = "Wedding"
-            elif "gym" in summary or "workout" in summary: cat = "Gym"
-            elif "office" in summary: cat = "Office"
+            if "wedding" in summary: 
+                cat = "Wedding"
+            elif "gym" in summary or "workout" in summary: 
+                cat = "Gym"
+            elif "office" in summary: 
+                cat = "Office"
             
             if cat:
                 await analyze_availability(hass, entry, cat, summary)
