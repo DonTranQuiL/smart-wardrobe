@@ -1,6 +1,7 @@
 from homeassistant.components.sensor import SensorEntity
 from homeassistant.helpers.restore_state import RestoreEntity
-from .const import DOMAIN, STATE_CLEAN, CONF_GARMENTS, ATTR_CATEGORY, ATTR_MAX_WEARS
+
+from .const import ATTR_CATEGORY, ATTR_MAX_WEARS, CONF_GARMENTS, DOMAIN, STATE_CLEAN
 
 
 async def async_setup_entry(hass, entry, async_add_entities):
