@@ -1,9 +1,11 @@
 import asyncio
 import logging
-import voluptuous as vol
 from datetime import datetime, timedelta
+
+import voluptuous as vol
 from homeassistant.helpers import config_validation as cv
-from .const import DOMAIN, CONF_CALENDAR, CONF_NOTIFY_DEVICE
+
+from .const import CONF_CALENDAR, CONF_NOTIFY_DEVICE, DOMAIN
 
 _LOGGER = logging.getLogger(__name__)
 PLATFORMS = ["sensor"]
