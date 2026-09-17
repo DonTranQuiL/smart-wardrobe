@@ -2,13 +2,14 @@ import voluptuous as vol
 from homeassistant import config_entries
 from homeassistant.core import callback
 from homeassistant.helpers import selector
+
 from .const import (
-    DOMAIN,
+    ATTR_CATEGORY,
+    ATTR_MAX_WEARS,
     CONF_CALENDAR,
     CONF_GARMENTS,
     CONF_NOTIFY_DEVICE,
-    ATTR_CATEGORY,
-    ATTR_MAX_WEARS,
+    DOMAIN,
 )
 
 
