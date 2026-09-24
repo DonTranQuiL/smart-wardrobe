@@ -9,6 +9,7 @@ Created by **Don TranQUiL**
 [![HACS Validation](https://github.com/DonTranQuiL/smart-wardrobe/actions/workflows/hacs.yaml/badge.svg)](https://github.com/DonTranQuiL/smart-wardrobe/actions)
 [![GitHub Release](https://img.shields.io/github/v/release/DonTranQuiL/smart-wardrobe?style=flat-square)](https://github.com/DonTranQuiL/smart-wardrobe/releases)
 [![Pytest](https://github.com/DonTranQuiL/smart-wardrobe/actions/workflows/pytest.yml/badge.svg)](https://github.com/DonTranQuiL/smart-wardrobe/actions/workflows/pytest.yml)
+[![Discord](https://img.shields.io/badge/Discord-join%20community-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/qaHPTTKHae)
 ---
 
 ## 📖 The Philosophy
