@@ -60,14 +60,34 @@ This is the heart of the manual control. You can find it under **Developer Tools
 
 **Prerequisite:** Ensure you have at least one working Calendar integration (like Google Calendar or HA Local Calendar) set up in Home Assistant.
 
+### Marketplace (Home Assistant 2026.11 and newer, recommended)
+
+[![Open your Home Assistant instance and open this repository in the Marketplace.](https://my.home-assistant.io/badges/marketplace_repository.svg)](https://my.home-assistant.io/redirect/marketplace_repository/?owner=DonTranQuiL&repository=smart-wardrobe&category=integration)
+
+1. In Home Assistant, go to **Settings > Marketplace** and search for **Smart Wardrobe** (or use the button above).
+2. Open it and select **Install**. The setup starts right away, no restart needed.
+
+> **Not in the Marketplace catalog yet?** Smart Wardrobe is not in the HACS default list yet, so it does not show up in the Marketplace search. Until it is, select **Add from link** in the upper-right corner of the Marketplace, enter `https://github.com/DonTranQuiL/smart-wardrobe`, select **Add**, then open Smart Wardrobe and select **Install**.
+
+### HACS (Home Assistant before 2026.11)
+
+1.  In **HACS**, click the three dots (⋮) in the top right → **Custom repositories**, paste `https://github.com/DonTranQuiL/smart-wardrobe` with category **Integration** and click **Add**.
+2.  Search for **Smart Wardrobe**, click **Download** and restart Home Assistant.
+3.  Go to **Settings > Devices & Services > Add Integration** and search for **Smart Wardrobe**.
+
+### Manual
+
 1.  Download the `smart_wardrobe` folder from this repository.
 2.  Place it inside your Home Assistant `custom_components` directory.
 3.  Restart Home Assistant.
 4.  Go to **Settings > Devices & Services > Add Integration** and search for **Smart Wardrobe**.
-5.  **The Config Flow:** 
+
+### Setup
+
+1.  **The Config Flow:** 
     *   Select your primary schedule **Calendar** from the dropdown.
     *   (Optional) Select a **Notification Device** (like your mobile phone) to receive alerts. If left blank, alerts will default to the Home Assistant persistent notifications sidebar.
-6.  Click "Configure" on the integration card to start adding your individual clothing items and assigning them to categories!
+2.  Click "Configure" on the integration card to start adding your individual clothing items and assigning them to categories!
 
 ---
 
